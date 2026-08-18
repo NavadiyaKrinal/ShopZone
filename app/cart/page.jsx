@@ -75,7 +75,7 @@ export default function CartPage() {
 
                     <button
                       onClick={() => decreaseQuantity(item.id)}
-                      className="h-9 w-9 rounded-lg border text-lg"
+                      className="h-9 w-9 rounded-lg border text-lg cursor-pointer"
                     >
                       −
                     </button>
@@ -86,14 +86,14 @@ export default function CartPage() {
 
                     <button
                       onClick={() => increaseQuantity(item.id)}
-                      className="h-9 w-9 rounded-lg bg-blue-600 text-lg text-white"
+                      className="h-9 w-9 rounded-lg bg-blue-600 text-lg text-white cursor-pointer"
                     >
                       +
                     </button>
 
                     <button
                       onClick={() => removeFromCart(item.id)}
-                      className="ml-4 text-sm font-semibold text-red-500 hover:text-red-600"
+                      className="ml-4 text-sm font-semibold text-red-500 hover:text-red-600 cursor-pointer"
                     >
                       Remove
                     </button>
